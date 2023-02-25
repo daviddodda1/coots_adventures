@@ -50,7 +50,10 @@ export default function Home() {
                 </a>{" "}
                 By <a href="https://daviddodda.com">David Dodda</a> <br />{" "}
                 {/* TODO  add github repo link*/}
-                <br /> <a href="">Project Github</a>
+                <br />{" "}
+                <a href="https://github.com/daviddodda1/coots_adventures">
+                  Project Github
+                </a>
               </div>
             </div>
           )}
