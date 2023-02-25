@@ -17,7 +17,7 @@ export const CutsceneConstants = {
   },
 };
 
-export class Cutscenes {
+export default class Cutscenes {
   pos: p5Types.Vector;
   width: number;
   height: number;

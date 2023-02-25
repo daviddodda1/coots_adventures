@@ -1,7 +1,7 @@
 import p5Types from "p5";
 import { game_height, game_width } from "../constants";
 
-export class Background {
+export default class Background {
   pos: p5Types.Vector;
   width: number;
   height: number;

@@ -1,15 +1,13 @@
 import styles from "@/styles/Game.module.css";
 import p5Types from "p5";
 import { useState, useEffect, useRef } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { actions as gameActions } from "../ducks/game";
 import startScreen from "../../assets/startScreen.png";
 import dynamic from "next/dynamic";
-import { Player } from "../gameClasses/player";
-import { game_width, game_height } from "../constants";
+import Player from "../../gameClasses/player";
+import { game_width, game_height } from "../../constants";
 
 import cat_sprite_png from "../../assets/cat_spritesheet.png";
-import cat_sprite_json from "../..//assets/cat_spritesheet.json";
+import cat_sprite_json from "../../assets/cat_spritesheet.json";
 
 import platform_sprite_png from "../../assets/p_sprites.png";
 import platform_sprite_json from "../../assets/p_sprites.json";
@@ -18,15 +16,14 @@ import cutscenes_sprite_png from "../../assets/cutseens.png";
 import cutscenes_sprite_json from "../../assets/cutseens.json";
 
 import backgroundImg from "../../assets/GameBg.png";
-import { Background } from "../gameClasses/background";
-import { Platform, PlatformTypes } from "../gameClasses/platform";
+import Background from "../../gameClasses/background";
+import Platform, { PlatformTypes } from "../../gameClasses/platform";
 
 import gameMapJson from "../../assets/gamemap.json";
-import {
+import Cutscenes, {
   CutsceneConstants,
-  Cutscenes,
   CutsceneType,
-} from "../gameClasses/cutscenes";
+} from "../../gameClasses/cutscenes";
 import moment from "moment";
 
 // Will only import `react-p5` on client-side
@@ -61,8 +58,6 @@ export default function Game({}: any) {
   const [gameMap, setGameMap]: [any, any] = useState({});
 
   const [current_fps, set_current_fps] = useState(0);
-
-  const gameState = useSelector((state: any) => state.game);
 
   const gameHeight = 1080 * 3;
   const gameWidth = 1280;
@@ -113,7 +108,7 @@ export default function Game({}: any) {
   const setup = (p5: p5Types, canvasParentRef: Element) => {
     p5.frameRate(60); // Attempt to refresh at starting FPS
     const canvasInstance = p5
-      .createCanvas(gameState.gameWidth, gameState.gameHeight)
+      .createCanvas(game_width, game_height)
       .parent(canvasParentRef);
 
     setCanvas(canvasInstance);

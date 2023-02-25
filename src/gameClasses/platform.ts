@@ -49,7 +49,7 @@ const PlatfromConstants = {
   },
 };
 
-export class Platform {
+export default class Platform {
   pos: p5Types.Vector;
   width: number;
   height: number;

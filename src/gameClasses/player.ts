@@ -1,6 +1,6 @@
 import p5Types from "p5";
 import { game_height, game_width } from "../constants";
-import { Platform, PlatformTypes } from "./platform";
+import Platform, { PlatformTypes } from "./platform";
 
 enum PlayerAnimationState {
   IDLE = "IDLE",
@@ -17,7 +17,7 @@ const animation_sequesnces = [
   [16, 17, 19, 20, 21, 23, 16],
 ];
 
-export class Player {
+export default class Player {
   pos: p5Types.Vector;
   vel: p5Types.Vector;
   acc: p5Types.Vector;
