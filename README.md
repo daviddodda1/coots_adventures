@@ -1,4 +1,4 @@
-![Example image](https://github.com/daviddodda1/coots_adventures.git/blob/main/readmeAssets/readmeAssets.png)
+![Example image](https://raw.githubusercontent.com/daviddodda1/coots_adventures/main/readmeAssets/LogoMain.png)
 
 ## Getting Started
 
