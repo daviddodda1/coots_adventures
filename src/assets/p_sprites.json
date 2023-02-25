@@ -1,0 +1,133 @@
+{"frames": [
+
+{
+	"filename": "BRIK.png",
+	"frame": {"x":0,"y":0,"w":180,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":120},
+	"sourceSize": {"w":180,"h":120},
+	"vertices": [ [180,120], [0,120], [0,0], [180,0] ],
+	"verticesUV": [ [180,120], [0,120], [0,0], [180,0] ],
+	"triangles": [ [1,2,3], [0,1,3] ]
+},
+{
+	"filename": "NP0_1_START.png",
+	"frame": {"x":180,"y":0,"w":120,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":180},
+	"sourceSize": {"w":120,"h":180},
+	"vertices": [ [120,180], [0,180], [0,0], [120,0] ],
+	"verticesUV": [ [300,180], [180,180], [180,0], [300,0] ],
+	"triangles": [ [1,2,3], [0,1,3] ]
+},
+{
+	"filename": "NP0_2_MID.png",
+	"frame": {"x":300,"y":0,"w":120,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":180},
+	"sourceSize": {"w":120,"h":180},
+	"vertices": [ [120,180], [0,180], [0,0], [120,0] ],
+	"verticesUV": [ [420,180], [300,180], [300,0], [420,0] ],
+	"triangles": [ [1,2,3], [0,1,3] ]
+},
+{
+	"filename": "NP0_3_END.png",
+	"frame": {"x":0,"y":180,"w":120,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":180},
+	"sourceSize": {"w":120,"h":180},
+	"vertices": [ [120,180], [0,180], [0,0], [120,0] ],
+	"verticesUV": [ [120,360], [0,360], [0,180], [120,180] ],
+	"triangles": [ [1,2,3], [0,1,3] ]
+},
+{
+	"filename": "SP0_1_START.png",
+	"frame": {"x":120,"y":180,"w":120,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":180},
+	"sourceSize": {"w":120,"h":180},
+	"vertices": [ [120,180], [0,180], [0,0], [120,0] ],
+	"verticesUV": [ [240,360], [120,360], [120,180], [240,180] ],
+	"triangles": [ [1,2,3], [0,1,3] ]
+},
+{
+	"filename": "SP0_2_MID.png",
+	"frame": {"x":240,"y":180,"w":120,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":180},
+	"sourceSize": {"w":120,"h":180},
+	"vertices": [ [120,180], [0,180], [0,0], [120,0] ],
+	"verticesUV": [ [360,360], [240,360], [240,180], [360,180] ],
+	"triangles": [ [1,2,3], [0,1,3] ]
+},
+{
+	"filename": "SP0_3_END.png",
+	"frame": {"x":360,"y":180,"w":120,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":180},
+	"sourceSize": {"w":120,"h":180},
+	"vertices": [ [120,180], [0,180], [0,0], [120,0] ],
+	"verticesUV": [ [480,360], [360,360], [360,180], [480,180] ],
+	"triangles": [ [1,2,3], [0,1,3] ]
+},
+{
+	"filename": "WALL_B.png",
+	"frame": {"x":0,"y":360,"w":360,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":60},
+	"sourceSize": {"w":360,"h":60},
+	"vertices": [ [360,60], [0,60], [0,0], [360,0] ],
+	"verticesUV": [ [360,420], [0,420], [0,360], [360,360] ],
+	"triangles": [ [1,2,3], [0,1,3] ]
+},
+{
+	"filename": "WALL_L.png",
+	"frame": {"x":360,"y":360,"w":60,"h":360},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":360},
+	"sourceSize": {"w":60,"h":360},
+	"vertices": [ [60,360], [0,360], [0,0], [60,0] ],
+	"verticesUV": [ [420,720], [360,720], [360,360], [420,360] ],
+	"triangles": [ [1,2,3], [0,1,3] ]
+},
+{
+	"filename": "WALL_R.png",
+	"frame": {"x":420,"y":360,"w":60,"h":360},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":360},
+	"sourceSize": {"w":60,"h":360},
+	"vertices": [ [60,360], [0,360], [0,0], [60,0] ],
+	"verticesUV": [ [480,720], [420,720], [420,360], [480,360] ],
+	"triangles": [ [1,2,3], [0,1,3] ]
+},
+{
+	"filename": "Z_LADDER.png",
+	"frame": {"x":0,"y":720,"w":88,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":125},
+	"sourceSize": {"w":88,"h":125},
+	"vertices": [ [88,125], [0,125], [0,0], [88,0] ],
+	"verticesUV": [ [88,845], [0,845], [0,720], [88,720] ],
+	"triangles": [ [1,2,3], [0,1,3] ]
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "p_sprites.png",
+	"format": "RGBA8888",
+	"size": {"w":480,"h":845},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8a9af17981755e8c465f7b0128f07385:7eb6b37a0c9084aafe590b1ae2298f7f:a7051253ad8ab81dd03bc6306e10683c$"
+}
+}

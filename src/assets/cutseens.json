@@ -1,0 +1,108 @@
+{"frames": [
+
+{
+	"filename": "Desktop - 1-min.jpg",
+	"frame": {"x":0,"y":0,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+{
+	"filename": "Desktop - 2-min.jpg",
+	"frame": {"x":1920,"y":0,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+{
+	"filename": "Desktop - 3-min.jpg",
+	"frame": {"x":3840,"y":0,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+{
+	"filename": "Desktop - 4-min.jpg",
+	"frame": {"x":5760,"y":0,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+{
+	"filename": "Desktop - 5-min.jpg",
+	"frame": {"x":0,"y":1080,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+{
+	"filename": "Desktop - 6-min.jpg",
+	"frame": {"x":1920,"y":1080,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+{
+	"filename": "Desktop - 7-min.jpg",
+	"frame": {"x":3840,"y":1080,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+{
+	"filename": "Desktop - 8-min.jpg",
+	"frame": {"x":5760,"y":1080,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+{
+	"filename": "Desktop - 9-min.jpg",
+	"frame": {"x":0,"y":2160,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+{
+	"filename": "Desktop - 10-min.jpg",
+	"frame": {"x":1920,"y":2160,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+{
+	"filename": "Desktop - 11-min.jpg",
+	"frame": {"x":3840,"y":2160,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+{
+	"filename": "Desktop - 12-min.jpg",
+	"frame": {"x":5760,"y":2160,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "cutseens.png",
+	"format": "RGBA8888",
+	"size": {"w":7680,"h":3240},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ae7d1e2bb479488f2246fc66beb636fd:353f203303a6fd8bc28ab81c9e05e93e:4f4dfc8af356a5358145862b71ae5ec4$"
+}
+}
